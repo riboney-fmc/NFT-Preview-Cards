@@ -15,4 +15,13 @@
 - Angular
 
 ## Screenshots (WIP)
-![image](https://user-images.githubusercontent.com/14286113/162172413-27dea732-d0f5-479c-8bbf-af0c7f2939e3.png)
+<details><summary>Desktop</summary>
+
+  ![image](https://user-images.githubusercontent.com/14286113/162258829-f32984c3-2e1f-48c3-9783-7a7573cce886.png)
+
+</details>
+
+<details><summary>Landscape Mobile</summary>
+  
+  ![image](https://user-images.githubusercontent.com/14286113/162258936-d71f150c-12af-434f-9068-c2c0044eb068.png)
+</details>
