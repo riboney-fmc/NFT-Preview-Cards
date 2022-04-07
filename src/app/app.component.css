@@ -9,3 +9,14 @@
     justify-content: center;
 }
 
+.card-image-container {
+    background: inherit;
+}
+
+.card-image-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
