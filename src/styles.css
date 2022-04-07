@@ -14,10 +14,14 @@
     background: var(--very-dark-blue-main);
 }
 
+html {
+    min-height: 100vh;
+}
+
 body {
-    margin: 0px;
+    width: 50vh;
+    margin: auto;
     padding: 0px;
     font-family: 'Outfit', sans-serif;
-    font-size: 1.125rem;
-    height: 100vh;
+    font-size: 1rem;
 }

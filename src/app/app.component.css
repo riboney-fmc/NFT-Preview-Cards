@@ -1,6 +1,5 @@
 .card-background {
     background-color: var(--very-dark-blue-card);
-    width: 50%;
     margin: 15% auto;
     padding: 3%;
     border-radius: 20px;
@@ -9,8 +8,10 @@
     justify-content: center;
 }
 
-.card-image-container {
-    background: inherit;
+/* Explictly setting background:inherit to apply card-background color to nested divs */
+/* Not sure how else to do this */
+.card-background * {
+    background-color: inherit;
 }
 
 .card-image-container img{
@@ -20,3 +21,46 @@
     border-radius: 15px;
 }
 
+/* Figma font-size: 22px */
+.card-heading {
+    color: white;
+    font-weight:600;
+    font-size: 1.375rem;
+}
+
+/* Figma font-size: 18px */
+/* Figma line-height: 26px */
+.card-desc {
+    color: var(--soft-blue);
+    font-weight: 400;
+    /* Default font size is 16px so we multipy by 1.125 to get 18px */
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+
+/* Figma font-size: 16px */
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    font-size: 1rem;
+}
+
+/* Figma gap between icon & price: 6.5px */
+.card-info-price {
+    display:flex;
+    align-items: center;
+    width: 50%;
+    gap: 0.5rem;
+    justify-content: left;
+}
+
+/* Figma gap between clock & time: 7.7px */
+.card-info-time {
+    display:flex;
+    width: 50%;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: right;
+}
