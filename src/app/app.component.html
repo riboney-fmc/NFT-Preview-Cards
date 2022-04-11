@@ -16,10 +16,10 @@
     <!-- Upper-Middle part of the card -->
     <div class="card-middle">
       <span id="middle-heading">
-        Equilibrium #3429
+        {{ currentCard.title }}
       </span>
       <span id="middle-desc">
-        Our Equilibrium collection promotes balance and calm.
+        {{ currentCard.desc }}
       </span>
     </div>
 
@@ -27,11 +27,11 @@
     <div class="card-info">
       <div class="card-info-price">
         <img src="./assets/images/icon-ethereum.svg" alt="icon-ethereum">
-        <span>0.041 ETH</span>
+        <span>{{ currentCard.price.toFixed(3) }}</span>
       </div>
       <div class="card-info-time">
         <img src="./assets/images/icon-clock.svg" alt="icon-clock">
-        <span>3 days left</span>
+        <span>{{ currentCard.time }} days left</span>
       </div>
     </div>
 
@@ -39,6 +39,19 @@
     <div class="card-footer">
       <img src="./assets/images/image-avatar.png" alt="image-avatar">
       <span>Creation of <span id="creator">Jules Wyvern</span></span>
+    </div>
+
+    <!-- Sides of the card, positioned on top of background -->
+    <div id="scrollRight" (click)="onChangeCard(1)">
+      <svg  width="49" height="60" viewBox="0 0 49 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32.3936 39.6464L1.22713 8.48L9.00002 0.707107L48.2929 40L9.00002 79.2929L1.22713 71.52L32.3936 40.3536L32.7471 40L32.3936 39.6464Z" fill="white" stroke="#00FFF8"/>
+      </svg>
+    </div>
+
+    <div id="scrollLeft" (click)="onChangeCard(-1)">
+      <svg width="47" height="60" viewBox="0 0 47 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.8064 40.3536L45.9729 72.52L39.6 78.8929L0.707107 40L39.6 1.10713L45.9729 7.48002L13.8064 39.6465L13.4529 40L13.8064 40.3536Z" fill="white" stroke="#00FFF8"/>
+      </svg>
     </div>
   </div>
 </div>  

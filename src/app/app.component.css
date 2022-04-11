@@ -11,6 +11,7 @@
     gap: 1.5rem;
     max-width: 60%;
     height: 100%;
+    position: relative;
 }
 
 /* Explictly setting background:inherit to apply card-background color to nested divs */
@@ -164,10 +165,35 @@
     opacity: 1;
 }
 
+/* Right and left arrows */
+
+#scrollRight, #scrollLeft {
+    position: absolute;
+    top: 70%;
+    background-color: transparent;
+    opacity: 0;
+}
+
+#scrollRight:hover, #scrollLeft:hover {
+    opacity: 1;
+}
+
+#scrollRight {
+    right: 1%;
+}
+
+#scrollLeft {
+    left: 1%;
+}
+
 @media only screen and (max-width: 600px) {
     .card-background {
         max-width: 90%;
         transition: 0.3s ease;
+    }
+
+    #scrollRight, #scrollLeft {
+        opacity: 0.1;
     }
 }
 
@@ -192,6 +218,10 @@
     #middle-desc {
         font-size: 1rem;
     }
+
+    #scrollRight, #scrollLeft {
+        opacity: 0.1;
+    }
 }
 
 /* Make the body-desc font back to normal sice */
@@ -207,5 +237,9 @@
 
     #middle-desc {
         font-size: 1.125rem;
+    }
+
+    #scrollRight, #scrollLeft {
+        opacity: 0.1;
     }
 }
