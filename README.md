@@ -11,9 +11,9 @@
 ## Planned features
 - [X] Load data from external source
 - [X] Scroll through different cards
-- [] Display total number of results and current card number
-- [] Create form to allow user to enter details for new card
-- [] Improve UI/UX experience 
+- [ ] Display total number of results and current card number
+- [ ] Create form to allow user to enter details for new card
+- [ ] Improve UI/UX experience 
   - _Currently the left and right scroll buttons are hidden on desktop and visble on mobile, but obscuring content_
 
 ## Dev stack
