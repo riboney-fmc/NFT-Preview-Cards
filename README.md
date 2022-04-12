@@ -1,15 +1,20 @@
 # Frontend Mentor challenge - NFT Preview cards
 
+## Demo
+- [Link to live demo](https://riboney.github.io/ftmt-challenge-preview-cards/ftmt-challenge-preview-cards)
+
 ## About
 - Working on a frontendmentor challenge to improve frontend dev skills
 - [Link to challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 - Expanding the scope of the original challenge to include Angular so I can get some practice with using Angular
-- Once this project is completed, a link to the live app will be posted
 
 ## Planned features
-- Load data from external source
-- Scroll through different cards
-- Display total number of results and current card number
+- [X] Load data from external source
+- [X] Scroll through different cards
+- [] Display total number of results and current card number
+- [] Create form to allow user to enter details for new card
+- [] Improve UI/UX experience 
+  - _Currently the left and right scroll buttons are hidden on desktop and visble on mobile, but obscuring content_
 
 ## Dev stack
 - Angular
