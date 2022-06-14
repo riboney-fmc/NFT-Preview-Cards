@@ -1,7 +1,7 @@
 # Frontend Mentor challenge - NFT Preview cards
 
 ## Demo
-- [Link to live demo](https://riboney.github.io/ftmt-challenge-preview-cards/ftmt-challenge-preview-cards)
+- [Live demo](https://riboney-fmc.github.io/NFT-Preview-Cards/ftmt-challenge-preview-cards)
 
 ## About
 - Working on a frontendmentor challenge to improve frontend dev skills
